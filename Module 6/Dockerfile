@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 
 # 5. Document the port the container intends to use
-EXPOSE 5000
+EXPOSE 3000
 
 # 6. The command to run when the container starts
 CMD ["python", "app.py"]
